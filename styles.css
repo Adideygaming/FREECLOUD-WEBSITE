@@ -1,0 +1,64 @@
+/* General Page Style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Hero Section with Minecraft Background Animation */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('https://yourgifurl.com/minecraft-background.gif') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  z-index: 1;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin: 10px;
+  color: white;
+  background-color: #222;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.cta-btn:hover {
+  background-color: #ff6a00;
+}
+
+.free-btn {
+  background-color: #28a745;
+}
+
+.premium-btn {
+  background-color: #007bff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+}
